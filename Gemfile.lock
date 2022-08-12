@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    fedexvichuge (0.1.0)
+    fedexvichuge (0.1.1)
 
 GEM
   remote: https://rubygems.org/
@@ -12,7 +12,6 @@ GEM
       minitest (>= 5.1)
       tzinfo (~> 2.0)
     ast (2.4.2)
-    concurrency (1.0.0)
     concurrent-ruby (1.1.10)
     faraday (2.5.2)
       faraday-net_http (>= 2.0, < 3.1)
@@ -59,7 +58,6 @@ PLATFORMS
 
 DEPENDENCIES
   activesupport (~> 7.0, >= 7.0.3.1)
-  concurrency (~> 1.0)
   faraday (~> 2.5, >= 2.5.2)
   fedexvichuge!
   nokogiri (~> 1.13, >= 1.13.8)
